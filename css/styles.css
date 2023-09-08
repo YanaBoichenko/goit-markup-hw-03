@@ -8,6 +8,7 @@ body {
     color: #434455;
 }
 
+
 .nav .link {text-decoration: none;
 color: #2E2F42;
 font-weight: 500;
@@ -113,4 +114,32 @@ letter-spacing: 0.02em;}
 
 .footer-logo {color: #F4F4FD;}
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
 
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {width: 1158px;
+padding: 0 15px; 
+margin: 0 auto; 
+}
+
+.container-header .nav {display: flex;
+}
+
+.container-header .address {display: flex;}
