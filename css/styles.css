@@ -72,7 +72,8 @@ color: #FFFFFF;
 cursor: pointer;
 width: 169px;
 height: 56px;
-}
+display: inline-block;
+padding: 0 auto;}
 
 .button:focus {background-color: #404BBF;}
 
@@ -92,14 +93,14 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 line-height: 1.11;
 text-align: center;
-margin-bottom: 72px;}
+margin-bottom: 72px;
+}
 
 .team-group {display: flex;
 flex-direction: row;
 gap: 24px;
 justify-content: space-between;
-padding: 0 156px; 
-width: calc((100%-72px)/4);}
+flex-basis: auto;}
 
 .team-group .images {background-color: #FFFFFF;}
 
