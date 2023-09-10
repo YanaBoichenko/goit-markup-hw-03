@@ -65,14 +65,18 @@ letter-spacing: 0.02em;
 }
 
 .nav .logo {text-decoration: none;
-}
+margin-right: 76px;}
 
 .address {font-style: normal;
 }
 
+.address-list {display: flex;
+gap: 40px;}
+
 .address .link {text-decoration: none;
 color:#434455;
-letter-spacing: 0.02em;}
+letter-spacing: 0.02em;
+padding: 24px 0;}
 
 .logo {
     color: #4D5AE5;
