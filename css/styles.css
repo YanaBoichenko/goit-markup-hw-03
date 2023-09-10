@@ -42,12 +42,13 @@ display: flex;
 margin: 0 auto;
 padding: 0 15px;}
 
+.header-inner {display: flex;
+justify-content: space-between;}
 
 .nav {display: flex;
 gap: 40px;
-align-items: center;} 
-
-.nav-item {padding: 24px 0;}
+align-items: center;
+padding: 24px 0;} 
 
 .nav-list {display: flex;
 gap: 40px;}
@@ -57,6 +58,7 @@ color: #2E2F42;
 font-weight: 500;
 letter-spacing: 0.02em;
 }
+
 
 .nav .link:hover {
     color: #404BBF;
@@ -141,7 +143,7 @@ justify-content: center;
 gap: 24px;
 }
 
-.advantages {flex-basis: calc((100%-3*24px)/4);
+.advantages {flex-basis: calc((100%-72px)/4);
 min-width: 264px;}
 
 .advantages-title {letter-spacing: 0.02em;
@@ -239,7 +241,7 @@ column-gap: 24px;
 row-gap: 48px;
 }
 
-.card-set-item {width: calc((100%-48px)/3);}
+.card-set-item {flex-basis: calc((100%-48px)/3);}
 
 .footer {
 background-color: #2E2F42;
