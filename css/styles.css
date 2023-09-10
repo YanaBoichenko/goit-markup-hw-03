@@ -37,8 +37,17 @@ img {
 
 .header {border-bottom: 1px solid #e7e9fc;}
 
-.nav {display: flex;
+.container-header {max-width: 1158px;
+display: flex;
+margin: 0 auto;
+padding: 0 15px;}
+
+
+.nav-list {display: flex;
+gap: 40px
 align-items: center;} 
+
+.nav-item {padding: 24px 0;}
 
 .nav .link {text-decoration: none;
 color: #2E2F42;
@@ -54,7 +63,8 @@ letter-spacing: 0.02em;
     color: #404bbf;
 }
 
-.nav .logo {text-decoration: none;}
+.nav .logo {text-decoration: none;
+}
 
 .address {font-style: normal;}
 
