@@ -143,7 +143,8 @@ justify-content: center;
 gap: 24px;
 }
 
-.advantages {flex-basis: calc((100%-72px)/4);
+.advantages {
+flex-basis: calc((100%-72px)/4);
 min-width: 264px;}
 
 .advantages-title {letter-spacing: 0.02em;
