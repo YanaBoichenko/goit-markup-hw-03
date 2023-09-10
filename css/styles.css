@@ -44,10 +44,10 @@ padding: 0 15px;
 justify-content: space-between;
 }
 
-.nav {display: flex;
+/* .nav {display: flex;
 gap: 40px;
 padding: 24px 0;
-align-items: center;}
+align-items: center;} */
 
 .nav .link {text-decoration: none;
 color: #2E2F42;
