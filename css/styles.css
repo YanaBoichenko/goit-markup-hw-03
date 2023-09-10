@@ -194,11 +194,9 @@ margin-bottom: 72px;
 }
 
 .team-group {display: flex;
-flex-direction: row;
 gap: 24px;
 justify-content: space-between;
-flex-basis: auto;
-padding: 0 156px;}
+flex-basis: auto;}
 
 .team-group-photos {background-color: #FFFFFF;
 flex-basis: calc((100% - 72px) / 4);
@@ -260,7 +258,7 @@ column-gap: 24px;
 row-gap: 48px;
 }
 
-.card-set-item {flex-basis: calc((100%-48px)/3);}
+.card-set-item {flex-basis: calc((100% - 48px) / 3);}
 
 .footer {
 background-color: #2E2F42;
