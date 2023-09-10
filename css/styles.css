@@ -40,15 +40,14 @@ img {
 .container-header {max-width: 1158px;
 display: flex;
 margin: 0 auto;
-padding: 0 15px;}
+padding: 0 15px;
+justify-content: space-between;
+}
 
 .nav {display: flex;
 gap: 40px;
-align-items: center;
-padding: 24px 0;} 
-
-.nav-list {display: flex;
-gap: 40px;}
+padding: 24px 0;
+align-items: center;}
 
 .nav .link {text-decoration: none;
 color: #2E2F42;
