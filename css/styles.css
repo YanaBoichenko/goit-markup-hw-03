@@ -8,6 +8,33 @@ body {
     color: #434455;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
 header {border-bottom: 1px solid #e7e9fc;}
 
 .nav {display: flex;
@@ -96,9 +123,9 @@ justify-content: center;
 gap: 24px;
 }
 
-.first-advantage {flex-basis: calc(100% - 3 * 24px) / 4);}
+.first-advantage {flex-basis: calc((100% - 3 * 24px) / 4);}
 
-.section-title {letter-spacing: 0.02em;
+.advantages-title {letter-spacing: 0.02em;
 position: absolute;
 width: 1px;
 height: 1px;
@@ -111,6 +138,7 @@ clip: rect(0 0 0 0);
 overflow: hidden;}
 
 .text {letter-spacing: 0.02em;}
+
 .team-section {background-color: #F4F4FD;
 padding: 120px 0;
 }
@@ -133,7 +161,14 @@ justify-content: space-between;
 flex-basis: auto;
 padding: 0 156px;}
 
-.team-group .images {background-color: #FFFFFF;}
+.team-group-photos {background-color: #FFFFFF;
+}
+
+.team-group-photos > img {margin-bottom: 32px;} 
+.section-text {margin-bottom: 32px;
+text-align: center;}
+
+
 
 ul {list-style-type: none;}
 .section-text {font-size: 16px;
@@ -148,7 +183,28 @@ font-weight: 500;
 color: #2E2F42;
 letter-spacing: 0.02em;
 margin-bottom: 8px;
+text-align: center;}
+
+.portfolio {padding: 120px 0;
 }
+
+.section-title {
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    line-height: 1.11;
+    text-align: center;
+    margin-bottom: 72px;
+}
+
+.card-set {display: flex;
+flex-wrap: wrap;
+gap: 24px;
+}
+
+.card-set-item {max-width: calc((100%-24*5)/6);}
 
 .footer {
 background-color: #2E2F42;
@@ -156,6 +212,7 @@ padding-top: 100px;
 padding-left: 156px;
 padding-bottom: 100px;
 padding-right: auto;
+
 }
 
 .footer-text {
@@ -170,32 +227,6 @@ margin-bottom: 16px;
 }
 
 .footer-logo {color: #F4F4FD;}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    margin: 0;
-}
-
-ul {
-    margin: 0;
-    padding-left: 0;
-}
-
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-
-.container {max-width: 1158px;
-padding: 0 15px; 
-margin: 0 auto; 
-}
 
 
 
